@@ -1,3 +1,5 @@
+// Dado um horário no formato AM/PM, convertê-lo para formato de 24h
+
 function timeConversion (s) {
     s.split('');
     let hours = parseInt(s[0] + s[1]);
@@ -14,7 +16,7 @@ function timeConversion (s) {
     if(hours < 10) {
         hours = '0' + hours
     }
-    
+
     return `${hours}:${minutes}:${seconds}`
 }
 
