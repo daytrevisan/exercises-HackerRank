@@ -8,5 +8,5 @@ function findMedian(arr) {
 
 }
 
-let medium = findMedian([0, 1, 2, 4, 6, 5, 3]);
-console.log(medium)
+let median = findMedian([0, 1, 2, 4, 6, 5, 3]);
+console.log(median)
